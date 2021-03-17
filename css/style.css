@@ -1,0 +1,129 @@
+/* 
+    Scheme
+1. Header
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Mulish', 'Arial', sans-serif;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../webfonts/mulish-v3-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../webfonts/mulish-v3-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../webfonts/mulish-v3-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../webfonts/mulish-v3-latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../webfonts/mulish-v3-latin-800.woff') format('woff');
+}
+
+/* Header */
+.navbar-item {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.firstBox,
+.secondBox,
+.thirdBox {
+  border-radius: 7%!important;
+}
+
+.firstBox,
+.secondBox,
+.thirdBox {
+  transition: all .4s ease-in-out;
+}
+
+.firstBox:hover,
+.secondBox:hover,
+.thirdBox:hover {
+  transform: translateY(-45px);
+  background-color: #37B44C!important;
+  color: #fff;
+  transition: all .4s ease-in-out;
+}
+
+.firstBox:hover .title,
+.secondBox:hover .title,
+.thirdBox:hover .title {
+  color: #fff;
+}
+
+.firstIcon {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.firstBox:hover .iconFirst,
+.secondBox:hover .iconFirst,
+.thirdBox:hover .iconFirst {
+  fill: white;
+}
+
+.firstBox:hover .subtitle,
+.secondBox:hover .subtitle,
+.thirdBox:hover .subtitle {
+  color: #fff;
+}
+
+.subTitle  {
+  color: rgba(255, 255, 255, 0.808)!important;
+  font-size: 17px !important;
+}
+
+.ourBlog {
+  border-radius: 4% !important;
+}
+
+@media only screen  and (max-width: 768px) {
+  header.section {
+    padding: 10px;
+  }
+
+  .header-text h1 {
+    padding: 20px;
+    font-size: 20px !important;
+  }
+
+  /* .top-navbar {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+  } */
+}
